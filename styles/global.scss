@@ -1,0 +1,46 @@
+// * {
+//     margin: 0;
+//     height: 100%;
+//     width: 100%;
+// }
+
+html, body, #__next, .home {
+    height: 100%;
+    width: 100%;
+}
+
+.home {
+    display: flex;
+    .banner {
+        height: 60%;
+        width: 60%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        .pfp {
+            margin: 50px auto 0;
+            height: 200px;
+            width: 200px;
+            background-image: url(https://library.kissclipart.com/20180906/wkw/kissclipart-user-icon-png-clipart-user-profile-computer-icons-94f08bfdb73bc68b.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .name {
+            margin: 10px auto 0;
+            width: 200px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .nav {
+            margin: 15px auto 0;
+            display: flex;
+            .link {
+                margin: 0 20px 0;
+                &:hover {
+                    color: green;
+                }
+            }
+        }
+    }
+}
