@@ -1,14 +1,30 @@
-import { useRouter } from "next/dist/client/router";
+import { getAllProjectIds, getProjectData } from "../../lib/md-parse";
 
-const Project = () => {
-    const router = useRouter()
+const Project = ({ projectData }) => {
+    <div>
+        {projectData.title}
+        <br/>
+        {projectData.id}
+        <br/>
+        {projectData.date}
+    </div>
+}
 
-    return (
-        <div>
-            <h1>Project</h1>
-            <p>Project id: {router.query.id}</p>
-        </div>
-    )
+export async function getStaticPaths() {
+    const paths = getAllProjectIds()
+    return {
+        paths,
+        fallback: false
+    }
+}
+
+export async function getStaticProps({ params }) {
+    const projectData = getProjectData(params.id)
+    return {
+        props: {
+            projectData
+        }
+    }
 }
 
 export default Project
