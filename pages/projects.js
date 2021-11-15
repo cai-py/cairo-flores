@@ -1,25 +1,23 @@
 import { getSortedProjectsData } from '../lib/md-parse'
 
-const Projects = ({ allProjectsData }) => (
+export default function Projects({ allProjectsData }) {
+    return (
         <div>
             <h1>Projects</h1>
             <ul>
-                {allProjectsData.map(({ id, date, title }) => {
+                {allProjectsData.map(({ id, date, title }) => (
                     <li key={id}>
-                        {title}
-                        <br/>
-                        {id}
-                        <br/>
-                        {date}
+                    {title}
+                    <br />
+                    {id}
+                    <br />
+                    {date}
                     </li>
-                })}
+                ))}
             </ul>
         </div>
-)
-
-// export async function getStaticPaths() {
-
-// }
+    )
+}
 
 export async function getStaticProps() {
     const allProjectsData = getSortedProjectsData()
@@ -29,5 +27,3 @@ export async function getStaticProps() {
         }
     }
 }
-
-export default Projects
