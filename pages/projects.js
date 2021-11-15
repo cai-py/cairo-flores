@@ -1,4 +1,6 @@
 import { getSortedProjectsData } from '../lib/md-parse'
+import Link from 'next/link'
+import Date from '../components/date'
 
 export default function Projects({ allProjectsData }) {
     return (
@@ -7,11 +9,13 @@ export default function Projects({ allProjectsData }) {
             <ul>
                 {allProjectsData.map(({ id, date, title }) => (
                     <li key={id}>
-                    {title}
-                    <br />
-                    {id}
-                    <br />
-                    {date}
+                        <Link href={`/projects/${id}`}>
+                            <a>{title}</a>
+                        </Link>
+                        <br />
+                        <small>
+                            <Date dateString={date}/>
+                        </small>
                     </li>
                 ))}
             </ul>
