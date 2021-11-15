@@ -1,7 +1,6 @@
 import { getSortedProjectsData } from '../lib/md-parse'
 
-export default function Projects({ allProjectsData }) {
-    return (
+const Projects = ({ allProjectsData }) => (
         <div>
             <h1>Projects</h1>
             <ul>
@@ -16,8 +15,7 @@ export default function Projects({ allProjectsData }) {
                 })}
             </ul>
         </div>
-    )
-}
+)
 
 // export async function getStaticPaths() {
 
@@ -31,3 +29,5 @@ export async function getStaticProps() {
         }
     }
 }
+
+export default Projects

@@ -1,13 +1,13 @@
-import { getAllProjectIds, getProjectData } from "../../lib/md-parse";
+import { getAllProjectIds, getProjectData } from "../../lib/md-parse"
 
-const Project = ({ projectData }) => {
-    <div>
-        {projectData.title}
-        <br/>
-        {projectData.id}
-        <br/>
-        {projectData.date}
-    </div>
+export default function Post({ projectData }) {
+    return (
+        <div>
+            {projectData.title}
+            {projectData.id}
+            {projectData.date}
+        </div>
+    )
 }
 
 export async function getStaticPaths() {
@@ -26,5 +26,3 @@ export async function getStaticProps({ params }) {
         }
     }
 }
-
-export default Project
