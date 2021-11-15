@@ -1,11 +1,12 @@
 import { getAllProjectIds, getProjectData } from "../../lib/md-parse"
+import Date from '../../components/date'
 
 export default function Post({ projectData }) {
     return (
         <div>
             {projectData.title}
             {projectData.id}
-            {projectData.date}
+            <Date dateString={projectData.date}/>
             <br/>
             <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml}} />
         </div>
