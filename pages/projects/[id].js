@@ -6,6 +6,8 @@ export default function Post({ projectData }) {
             {projectData.title}
             {projectData.id}
             {projectData.date}
+            <br/>
+            <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml}} />
         </div>
     )
 }
@@ -19,7 +21,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-    const projectData = getProjectData(params.id)
+    const projectData = await getProjectData(params.id)
     return {
         props: {
             projectData
