@@ -1,6 +1,10 @@
+import Layout from '../components/layout'
+
 const Blog = () => (
     <div>
-        <h1>Blog</h1>
+        <Layout>
+            <h1>Blog</h1>
+        </Layout>
     </div>
 )
 
