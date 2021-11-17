@@ -6,10 +6,6 @@ export default function Post({ projectData }) {
     return (
         <div>
             <Layout>
-                {projectData.title}
-                {projectData.id}
-                <Date dateString={projectData.date}/>
-                <br/>
                 <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml}} />
             </Layout>
         </div>
