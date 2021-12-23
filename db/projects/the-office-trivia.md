@@ -5,7 +5,7 @@ date: '2020-01-02'
 
 # [The Office Trivia](https://gentle-cove-52214.herokuapp.com/)
 
-[![The Office](https://iamavig.files.wordpress.com/2018/05/the-office-logo-e1527162138936.jpg?w=529)](https://gentle-cove-52214.herokuapp.com/)
+[![The Office](https://i.imgur.com/WI2QqH8.jpg)](https://gentle-cove-52214.herokuapp.com/)
 
 ## _Guess who said what_
 
