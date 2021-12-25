@@ -1,6 +1,6 @@
 ---
 title: 'The Office Trivia'
-date: '2020-01-02'
+date: '2020-09-24'
 ---
 
 # [The Office Trivia](https://gentle-cove-52214.herokuapp.com/)
