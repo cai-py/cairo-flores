@@ -1,5 +1,5 @@
 ---
-title: 'Re-did-it'
+title: 'Logos'
 date: '2020-01-02'
 ---
 
