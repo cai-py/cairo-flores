@@ -7,7 +7,7 @@ date: '2020-09-24'
 
 [![The Office](https://i.imgur.com/WI2QqH8.jpg)](https://gentle-cove-52214.herokuapp.com/)
 
-## _Guess who said what_
+## Summary
 
 This is a simple trivia game where users guess quotes from _The Office_.
 
@@ -28,6 +28,6 @@ This project uses a number of different technologies:
 
 - [Node.js](https://nodejs.org/)
 - [Express](https://expressjs.com/)
-- [React](https://reactjs.org/)
+- [ReactJs](https://reactjs.org/)
 - [MongoDB](https://www.mongodb.com/)
 - [The Office API](https://www.officeapi.dev/)

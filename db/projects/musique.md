@@ -7,7 +7,7 @@ date: '2020-09-07'
 
 [![Musique](https://i.imgur.com/MPIULJw.png)](https://dry-brushlands-36744.herokuapp.com/home/library)
 
-## _All your practice material in one place_
+## Summary
 
 This app allows you to store your personal musical practive material conveneiently in one place.
 
