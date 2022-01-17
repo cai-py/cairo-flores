@@ -5,7 +5,7 @@ date: '2020-10-09'
 
 # [Re-did-it](app.site)
 
-[![The Office](image.site)](app.site)
+[![Re-did-it](image.site)](app.site)
 
 ## Summary
 
