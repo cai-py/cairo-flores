@@ -4,7 +4,7 @@ const Index = () => (
     <div className="home">
         <div className="banner">
             <div className="pfp"></div>
-            <div className="name">Cairo Flores</div>
+            <div className="text-3xl">Cairo Flores</div>
             <div className="nav">
                 <Link href='/projects'>
                     <div className="link projects-link">Projects</div>
