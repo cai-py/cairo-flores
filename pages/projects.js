@@ -2,10 +2,12 @@ import { getSortedProjectsData } from '../lib/md-parse'
 import Link from 'next/link'
 import Date from '../components/date'
 import Layout from '../components/layout'
+import Navbar from '../components/navBar'
 
-export default function Projects({ allProjectsData }) {
+const Projects = ({allProjectsData}) => {
     return (
         <div>
+            <Navbar/>
             <Layout>
             <h1>Projects</h1>
             <ul>
@@ -34,3 +36,5 @@ export async function getStaticProps() {
         }
     }
 }
+
+export default Projects
