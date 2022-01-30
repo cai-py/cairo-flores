@@ -2,11 +2,14 @@ import Link from 'next/link'
 
 const Index = () => {
     return (
-        <div className="home">
-            <div className="banner">
-                <div className="pfp"></div>
-                <div className="name">Cairo Flores</div>
-                <div className="nav">
+        <div className="home w-full flex">
+            <div className="banner m-auto">
+                <a className="text-lg font-semibold rounded-lg tracking-widest focus:outline-none focus:shadow-outline">
+                    <h1 className="text-4xl Avenir tracking-tighter text-gray-900 md:text-5xl">
+                        Cairo Flores
+                    </h1>
+                </a>
+                <div className="nav flex flex-row items-center justify-between">
                     <Link href='/projects'>
                         <div className="link projects-link">Projects</div>
                     </Link>

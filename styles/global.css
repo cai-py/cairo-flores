@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
+html, body, #__next, .home {
+    height: 100%;
+    width: 100%;
+}
 
 
 
