@@ -2,7 +2,7 @@ import { getSortedProjectsData } from '../lib/md-parse'
 import Link from 'next/link'
 import Date from '../components/date'
 import Layout from '../components/layout'
-import Navbar from '../components/navBar'
+// import Navbar from '../components/navBar'
 
 const Projects = ({allProjectsData}) => {
     return (
