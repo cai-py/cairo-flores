@@ -9,7 +9,7 @@ const Index = () => {
                         Cairo Flores
                     </h1>
                 </a>
-                <div className="nav flex flex-row items-center justify-between">
+                <div className="nav flex flex-row items-center justify-between text-sm md:text-base">
                     <Link href='/projects'>
                         <div className="link projects-link">Projects</div>
                     </Link>
