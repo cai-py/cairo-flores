@@ -8,7 +8,7 @@ const Projects = ({allProjectsData}) => {
     return (
         <div className='projectsPage'>
             <Layout>
-                {/* <Navbar/> */}
+                <Navbar/>
                 <h1 className=''>Projects</h1>
                 <ul>
                     {allProjectsData.map(({ id, date, title }) => (
