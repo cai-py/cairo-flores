@@ -48,7 +48,7 @@ const Navbar = () => {
                         <ul className="flex flex-grow justify-end flex-wrap items-center">
                             <li>
                                 <a
-                                    href='/'
+                                    href='/projects'
                                     className='className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"'
                                 >
                                     Projects
@@ -56,7 +56,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <a
-                                    href='/'
+                                    href='/experience'
                                     className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                                 >
                                     Experience
@@ -64,7 +64,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <a
-                                    href='/'
+                                    href='/blog'
                                     className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                                 >
                                     Blog
