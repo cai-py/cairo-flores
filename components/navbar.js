@@ -3,19 +3,19 @@ import React from 'react'
 const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
-        <div className="navBar bg-white sticky top-0 w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out">
-            <div className="flex flex-col max-w-6xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+        <div className="navBar bg-white sticky top-0 w-full z-30 sm:bg-opacity-90 transition duration-300 ease-in-out">
+            <div className="flex flex-col max-w-6xl px-4 mx-auto sm:items-center sm:justify-between sm:flex-row sm:px-6 lg:px-8">
                 <div className="flex flex-row items-center justify-between p-4">
                     <a
                         href="/"
                         className="text-lg font-semibold rounded-lg tracking-widest focus:outline-none focus:shadow-outline"
                     >
-                        <h1 className="text-4xl Avenir tracking-tighter text-gray-900 md:text-4x1 lg:text-3xl">
+                        <h1 className="text-4xl Avenir tracking-tighter text-gray-900 sm:text-4x1 lg:text-3xl">
                             Cairo Flores
                         </h1>
                     </a>
                     <button
-                        className="text-white cursor-pointer leading-none px-3 py-1 md:hidden outline-none focus:outline-none"
+                        className="text-white cursor-pointer leading-none px-3 py-1 sm:hidden outline-none focus:outline-none"
                         type="button"
                         aria-label="button"
                         onClick={() => setNavbarOpen(!navbarOpen)}
@@ -40,7 +40,7 @@ const Navbar = () => {
                 </div>
                 <div
                     className={
-                        "md:flex flex-grow items-center" +
+                        "sm:flex flex-grow items-center" +
                         (navbarOpen ? " flex" : " hidden")
                     }
                 >
