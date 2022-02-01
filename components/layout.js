@@ -4,13 +4,14 @@ import Navbar from './navbar'
 
 export default function Layout({ children }) {
     return (
-        <div>
+        <div className='top-0 w-full'>
             <Head></Head>
             <Navbar/>
-            <main>{children}</main>
-            <Link href='/'>
-                <a>Back to home...</a>
-            </Link>
+            <main className='max-w-6xl px-4 mx-auto'>
+                <div className='page p-4'>
+                    {children}
+                </div>
+            </main>
         </div>
     )
 }
