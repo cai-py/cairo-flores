@@ -11,19 +11,15 @@ html, body, #__next, .home {
 .mdFile{
     
 }
-
 .mdFile H1 {
     font-size: 3em;
 }
-
 .mdFile H2 {
     font-size: 2em;
 }
-
 .mdFile img {
     max-width: 500px;
 }
-
 .mdFile ul {
     list-style: decimal;
     margin-left: 2em;
