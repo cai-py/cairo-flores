@@ -4,7 +4,7 @@ const Blog = () => {
     return (
         <div className='blogPage'>
             <Layout>
-                <h1>Blog</h1>
+                <h1 className='text-5xl mb-5'>Blog</h1>
             </Layout>
         </div>
     )

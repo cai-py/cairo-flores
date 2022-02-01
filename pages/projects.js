@@ -14,14 +14,13 @@ const Projects = ({allProjectsData}) => {
                 
                 <ul className=''> {/*FLEXBOX, create cards for each project, maybe different view options*/}
                     {allProjectsData.map(({ id, date, title }) => (
-                        <li key={id} className='my-1'>
+                        <li key={id} className='my-2'>
                             <Link href={`/projects/${id}`}>
-                                <a>{title}</a>
+                                <a className='text-2xl'>{title}</a>
                             </Link>
-                            <br />
-                            <small>
+                            <p className='text-lg'>
                                 <Date dateString={date}/>
-                            </small>
+                            </p>
                         </li>
                     ))}
                 </ul>
