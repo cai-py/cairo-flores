@@ -7,10 +7,14 @@ const Projects = ({allProjectsData}) => {
     return (
         <div className='projectsPage'>
             <Layout>
-                <h1 className=''>Projects</h1>
-                <ul>
+                <div>
+                    <h1 className='text-5xl mb-5'>Projects</h1>
+                    {/* ADD SEARCH BAR AND OTHER FILTERS HERE */}
+                </div>
+                
+                <ul className=''> {/*FLEXBOX, create cards for each project, maybe different view options*/}
                     {allProjectsData.map(({ id, date, title }) => (
-                        <li key={id}>
+                        <li key={id} className='my-1'>
                             <Link href={`/projects/${id}`}>
                                 <a>{title}</a>
                             </Link>

@@ -12,17 +12,17 @@ html, body, #__next, .home {
     
 }
 .mdFile H1 {
-    font-size: 3em;
+    font-size: 3rem;
 }
 .mdFile H2 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 .mdFile img {
     max-width: 500px;
 }
 .mdFile ul {
     list-style: decimal;
-    margin-left: 2em;
+    margin-left: 2rem;
 }
 
 
