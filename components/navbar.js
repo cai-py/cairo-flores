@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
-        <div className="navBar bg-white sticky top-0 w-full z-30 sm:bg-opacity-90 transition duration-300 ease-in-out">
+        <div className="navBar bg-white sticky top-0 w-full z-30">
             <div className="flex flex-col max-w-6xl px-4 mx-auto sm:items-center sm:justify-between sm:flex-row sm:px-6 lg:px-8">
                 <div className="flex flex-row items-center justify-between p-4">
                     <a

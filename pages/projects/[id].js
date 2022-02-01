@@ -6,7 +6,7 @@ export default function Post({ projectData }) {
     return (
         <div>
             <Layout>
-                <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml}} />
+                <div className="mdFile" dangerouslySetInnerHTML={{ __html: projectData.contentHtml}} />
             </Layout>
         </div>
     )
