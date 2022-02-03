@@ -14,6 +14,9 @@ html, body, #__next, .home {
 .mdFile H1 {
     font-size: 3rem;
 }
+.mdFile H1:hover {
+    text-decoration: underline;
+}
 .mdFile H2 {
     font-size: 2rem;
 }

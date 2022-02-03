@@ -3,9 +3,9 @@ title: 'Chores App'
 date: '2021-07-13'
 ---
 
-# [Chores App](app.site)
+# [Chores App](./chores-app)
 
-[![Chores App](image.site)](app.site)
+[![Chores App](image.site)](./chores-app)
 
 ## Summary 
 

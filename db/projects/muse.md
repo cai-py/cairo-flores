@@ -3,8 +3,8 @@ title: 'Muse'
 date: '2020-10-22'
 ---
 
-# [Muse](app.site)
-[![Muse](image.site)](app.site)
+# [Muse](https://muse-music.herokuapp.com/#)
+[![Muse](image.site)](https://muse-music.herokuapp.com/#)
 
 ## Summary
 

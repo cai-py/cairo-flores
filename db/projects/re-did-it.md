@@ -3,9 +3,9 @@ title: 'Re-did-it'
 date: '2020-10-09'
 ---
 
-# [Re-did-it](app.site)
+# [Re-did-it](https://re-did-it-app.herokuapp.com/)
 
-[![Re-did-it](image.site)](app.site)
+[![Re-did-it](image.site)](https://re-did-it-app.herokuapp.com/)
 
 ## Summary
 

@@ -3,9 +3,9 @@ title: 'Logos'
 date: '2021-02-27'
 ---
 
-# [Logos](app.site)
+# [Logos](./logos)
 
-[![Logos](image.site)](app.site)
+[![Logos](image.site)](./logos)
 
 ## Summary 
 
