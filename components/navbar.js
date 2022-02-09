@@ -10,7 +10,7 @@ const Navbar = () => {
                         href="/"
                         className="text-lg font-semibold rounded-lg tracking-widest focus:outline-none focus:shadow-outline"
                     >
-                        <h1 className="text-4xl Avenir tracking-tighter text-gray-900 sm:text-4x1 lg:text-3xl">
+                        <h1 className="link text-4xl Avenir tracking-tighter text-gray-900 sm:text-4x1 lg:text-3xl">
                             Cairo Flores
                         </h1>
                     </a>
@@ -49,7 +49,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href='/projects'
-                                    className='className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"'
+                                    className='link font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out'
                                 >
                                     Projects
                                 </a>
@@ -57,7 +57,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href='/experience'
-                                    className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                                    className="link font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                                 >
                                     Experience
                                 </a>
@@ -65,7 +65,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href='/blog'
-                                    className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                                    className="link font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                                 >
                                     Blog
                                 </a>

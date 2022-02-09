@@ -16,7 +16,7 @@ const Projects = ({allProjectsData}) => {
                     {allProjectsData.map(({ id, date, title }) => (
                         <li key={id} className='my-2'>
                             <Link href={`/projects/${id}`}>
-                                <a className='text-2xl'>{title}</a>
+                                <a className='link text-2xl'>{title}</a>
                             </Link>
                             <p className='text-lg'>
                                 <Date dateString={date}/>
