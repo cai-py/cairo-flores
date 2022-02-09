@@ -4,7 +4,7 @@ date: '2020-10-22'
 ---
 
 # [Muse](https://muse-music.herokuapp.com/#)
-[![Muse](image.site)](https://muse-music.herokuapp.com/#)
+[![Muse](https://i.imgur.com/Q8ayFcB.png)](https://muse-music.herokuapp.com/#)
 
 ## Summary
 

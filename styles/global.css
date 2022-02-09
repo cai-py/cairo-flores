@@ -20,8 +20,13 @@ html, body, #__next, .home {
 .mdFile H2 {
     font-size: 2rem;
 }
+
+/* RESIZE IMAGES USING "iloveimg.com" TO HAVE A WIDTH OF 500PX */
 .mdFile img {
     max-width: 500px;
+    border: solid black;
+    border-width: 2px;
+    border-radius: 5px;
 }
 .mdFile ul {
     list-style: decimal;

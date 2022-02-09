@@ -5,7 +5,7 @@ date: '2020-10-09'
 
 # [Re-did-it](https://re-did-it-app.herokuapp.com/)
 
-[![Re-did-it](image.site)](https://re-did-it-app.herokuapp.com/)
+[![Re-did-it](https://i.imgur.com/2DuGi0N.png)](https://re-did-it-app.herokuapp.com/)
 
 ## Summary
 

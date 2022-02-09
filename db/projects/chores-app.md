@@ -5,7 +5,7 @@ date: '2021-07-13'
 
 # [Chores App](./chores-app)
 
-[![Chores App](image.site)](./chores-app)
+[![Chores App](https://i.imgur.com/Uv3AG8e.png)](./chores-app)
 
 ## Summary 
 

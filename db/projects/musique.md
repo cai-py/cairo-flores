@@ -5,7 +5,7 @@ date: '2020-09-07'
 
 # [Musique](https://dry-brushlands-36744.herokuapp.com/home/library)
 
-[![Musique](https://i.imgur.com/MPIULJw.png)](https://dry-brushlands-36744.herokuapp.com/home/library)
+[![Musique](https://i.imgur.com/NE4K9SO.png)](https://dry-brushlands-36744.herokuapp.com/home/library)
 
 ## Summary
 

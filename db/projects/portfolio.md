@@ -5,7 +5,7 @@ date: '2021-11-08'
 
 # [My Portfolio](https://www.cairoflores.com/)
 
-[![My Portfolio](image.site)](https://www.cairoflores.com/)
+[![My Portfolio](https://i.imgur.com/H10o6e5.png)](https://www.cairoflores.com/)
 
 ## Summary 
 

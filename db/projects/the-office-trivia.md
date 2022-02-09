@@ -5,7 +5,7 @@ date: '2020-09-24'
 
 # [The Office Trivia](https://gentle-cove-52214.herokuapp.com/)
 
-[![The Office](https://i.imgur.com/WI2QqH8.jpg)](https://gentle-cove-52214.herokuapp.com/)
+[![The Office](https://i.imgur.com/hwpwWvk.png)](https://gentle-cove-52214.herokuapp.com/)
 
 ## Summary
 
