@@ -14,7 +14,8 @@ const Projects = ({allProjectsData}) => {
                 
                 <ul className=''> {/*FLEXBOX, create cards for each project, maybe different view options*/}
                     {allProjectsData.map(({ id, date, title }) => (
-                        <li key={id} className='my-2'>
+                        <Link href={`/projects/${id}`}>
+                        <li key={id} className='border-2 rounded-lg my-2 p-2'>
                             <Link href={`/projects/${id}`}>
                                 <a className='link text-2xl'>{title}</a>
                             </Link>
@@ -22,6 +23,7 @@ const Projects = ({allProjectsData}) => {
                                 <Date dateString={date}/>
                             </p>
                         </li>
+                        </Link>
                     ))}
                 </ul>
             </Layout>

@@ -19,7 +19,7 @@ const Experience = () => {
                         </ul>
                     </li>
                     <li className='mt-5'>
-                        <h2 className='text-3xl'>General Assmbly</h2>
+                        <h2 className='text-3xl'>General Assembly</h2>
                         <ul>
                             
                         </ul>
