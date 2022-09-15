@@ -7,9 +7,12 @@ const Projects = ({allProjectsData}) => {
     return (
         <div className='projectsPage'>
             <Layout>
-                <div>
+                <div className='titleBlock'>
                     <h1 className='text-5xl mb-5'>Projects</h1>
                     {/* ADD SEARCH BAR AND OTHER FILTERS HERE */}
+                    <div className='filterResults'>
+                        <div className='showFilters'>X</div>
+                    </div>
                 </div>
                 
                 <ul className=''> {/*FLEXBOX, create cards for each project, maybe different view options*/}
