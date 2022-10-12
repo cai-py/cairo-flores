@@ -1,24 +1,24 @@
-// import { NextApiRequest, NextApiResponse } from "next";
+// // import { NextApiRequest, NextApiResponse } from "next";
 
-// export default function (req,res) {
-//     //NOT A REACT COMPONENT
-//     res.json({status: 'ok'})
+// // export default function (req,res) {
+// //     //NOT A REACT COMPONENT
+// //     res.json({status: 'ok'})
+// // }
+
+
+
+
+
+
+// import { dbConnect } from "../../lib/mongodb";
+
+// export default async function handler(req,res) {
+//     await dbConnect();
+//     const {body} = req.body
+//     res.status(200).json({
+//         body
+//     })
 // }
-
-
-
-
-
-
-import { dbConnect } from "../../lib/mongodb";
-
-export default async function handler(req,res) {
-    await dbConnect();
-    const {body} = req.body
-    res.status(200).json({
-        body
-    })
-}
 
 
 
