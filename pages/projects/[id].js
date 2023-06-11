@@ -6,6 +6,7 @@ export default function Post({ projectData }) {
     return (
         <div>
             <Layout>
+                <div onClick={()=> {window.location.assign("../projects")}}>Back</div>
                 <div className="mdFile" dangerouslySetInnerHTML={{ __html: projectData.contentHtml}} />
             </Layout>
         </div>
