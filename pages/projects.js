@@ -2,8 +2,14 @@ import { getSortedProjectsData } from '../lib/md-parse'
 import Link from 'next/link'
 import Date from '../components/date'
 import Layout from '../components/layout'
+import React, { useEffect } from "react";
 
 const Projects = ({allProjectsData}) => {
+    useEffect(() => {
+        async function fetchData() {
+            // api call here
+        }
+    })
     return (
         <div className='projectsPage'>
             <Layout>
